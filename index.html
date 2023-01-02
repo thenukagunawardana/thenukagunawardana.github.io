@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -11,6 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/loadingBar.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -38,8 +34,12 @@
 		<!-- Home -->
 		<section id="intro" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
+				<a class="profile avatar">
+					<img src="images/Thenuka.jpg" alt="" />
+				</a>
+				<br>
 				<h1>My Portfolio</h1>
-				<p>I am a hardworking Software Engineer who is passionate about the work I do and with the willingness
+				<p>I am a hardworking Software Engineer who is passionate about the work I do and with the ambition
 					to learn new things to gain more experience
 				<ul class="actions">
 					<li><a href="#two" class="button scrolly">Find out more</a></li>
@@ -82,19 +82,62 @@
 					</div>
 					<div style="clear: both;"></div>
 				</div>
+				<h1>Skills</h1>
+				<div class="skill-bars">
+					<div class="bar">
+						<div class="info">
+							<span>HTML</span>
+						</div>
+						<div class="progress-line html">
+							<span></span>
+						</div>
+					</div>
+					<div class="bar">
+						<div class="info">
+							<span>React</span>
+						</div>
+						<div class="progress-line css">
+							<span></span>
+						</div>
+					</div>
+					<div class="bar">
+						<div class="info">
+							<span>Node</span>
+						</div>
+						<div class="progress-line jquery">
+							<span></span>
+						</div>
+					</div>
+					<div class="bar">
+						<div class="info">
+							<span>Java</span>
+						</div>
+						<div class="progress-line python">
+							<span></span>
+						</div>
+					</div>
+					<div class="bar">
+						<div class="info">
+							<span>Python</span>
+						</div>
+						<div class="progress-line mysql">
+							<span></span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- Projects -->
 		<section id="three" class="wrapper style2 spotlights">
 			<section>
-				<a class="image"><img src="images/fruit1.jpg" alt="" data-position="center center" /></a>
+				<a class="image"><img src="images/fruits1.jpg" alt="" data-position="center center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Fruit Classification Mobile Application (Machine learning)</h2>
 						<p>Mobile application integrated with Machine learning modal</p>
 						<ul class="actions">
 							<li><a href="fruitApp.html" class="button">Learn more</a></li>
-							<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/thenukagunawardana/FruitRecognition"
+							<li><a href="https://github.com/thenukagunawardana/FruitRecognition"
 									class="button scrolly">View Source Code</a></li>
 						</ul>
 					</div>
@@ -115,7 +158,7 @@
 				</div>
 			</section>
 			<section>
-				<a class="image"><img src="images/online-car-rental.jpg" alt="" data-position="25% 25%" /></a>
+				<a class="image"><img src="images/car_rental.jpg" alt="" data-position="25% 25%" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Online Car Rental System</h2>
@@ -129,13 +172,55 @@
 				</div>
 			</section>
 			<section>
-				<a class="image"><img src="images/pic01.jpg" alt="" data-position="25% 25%" /></a>
+				<a class="image"><img src="images/timetable.jpg" alt="" data-position="25% 25%" /></a>
 				<div class="content">
 					<div class="inner">
-						<h2>Timetable System (Web/Mobile) Application</h2>
-						<p>Made using SpringBoot and Thymeleaf and the mobile application using native</p>
+						<h2>Timetable System (Web/ Mobile Application)</h2>
+						<p>Made using SpringBoot, Thymeleaf and Android Studio</p>
 						<ul class="actions">
-							<li><a href="carRental.html" class="button">Learn more</a></li>
+							<li><a href="timeTable.html" class="button">Learn more</a></li>
+							<li><a href="#https://github.com/thenukagunawardana/bangerandco" class="button scrolly">View
+									Source Code</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a class="image"><img src="images/donate.png" alt="" data-position="25% 25%" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Web application for a Donation Site</h2>
+						<p>Made using HTML and CSS</p>
+						<ul class="actions">
+							<li><a href="donation.html" class="button">Learn more</a></li>
+							<li><a href="#https://github.com/thenukagunawardana/bangerandco" class="button scrolly disabled">View
+									Source Code</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a class="image"><img src="images/banking.png" alt="" data-position="25% 25%" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Concurrent Banking Application</h2>
+						<p>Made using SpringBoot and Thymeleaf</p>
+						<ul class="actions">
+							<li><a href="Banking.html" class="button">Learn more</a></li>
+							<li><a href="#https://github.com/thenukagunawardana/bangerandco" class="button scrolly">View
+									Source Code</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a class="image"><img src="images/clothing.png" alt="" data-position="25% 25%" /></a>
+				<div class="content">
+					<div class="inner">
+						<h2>Mobile Application for a Clothing Store (Omega Clothing Store)</h2>
+						<p>Made using SpringBoot and Thymeleaf</p>
+						<ul class="actions">
+							<li><a href="styleOmega.html" class="button">Learn more</a></li>
 							<li><a href="#https://github.com/thenukagunawardana/bangerandco" class="button scrolly">View
 									Source Code</a></li>
 						</ul>
@@ -146,7 +231,7 @@
 
 
 		<!-- About Me -->
-		<section id="four" class="wrapper style1 fade-up">
+		<section id="four" class="wrapper style4 fade-up">
 			<div class="inner">
 				<h2>Get in touch with me</h2>
 				<section>
@@ -154,7 +239,7 @@
 						<div class="row-align-left">
 							<li>
 								<h3>Email</h3>
-								<a href="#">thenukanisal@gmail.com</a>
+								<a href="mailto:thenukanisal@gmail.com">thenukanisal@gmail.com</a>
 							</li>
 							<li>
 								<h3>Phone</h3>
@@ -169,13 +254,18 @@
 									<li><a href="https://www.linkedin.com/in/thenuka-gunawardana-2136aa137/"
 											class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
 									</li>
+									<li><a href="mailto:thenukanisal@gmail.com" class="icon solid fa-envelope"><span
+												class="label">LinkedIn</span></a>
+									</li>
 								</ul>
 							</li>
 						</div>
 						<div class="row-align-right">
 							<ul class="actions">
-								<li><button target="_blank" rel="noopener noreferrer" class="button-scrolly" onclick="location.href='Documents/CV.pdf';">View Resume</button></li>
-								<li><a target="_blank" rel="noopener noreferrer" href="/Documents/CV.pdf" download="Thenuka Gunawardana CV" class="button scrolly">Download Resume</a></li>
+								<li><button class="button-scrolly" onclick="location.href='Documents/CV.pdf';">View
+										Resume</button></li>
+								<li><a href="/Documents/CV.pdf" download="Thenuka Gunawardana CV"
+										class="button scrolly">Download Resume</a></li>
 							</ul>
 						</div>
 						<div style="clear: both;"></div>
@@ -186,14 +276,12 @@
 	</div>
 
 	<!-- Footer -->
-	<footer id="footer" class="wrapper style1-alt">
+	<!-- <footer id="footer" class="wrapper style1-alt">
 		<div class="inner">
 			<ul class="menu">
-				<li>&copy; Untitled. All rights reserved.</li>
-				<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 			</ul>
 		</div>
-	</footer>
+	</footer> -->
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
