@@ -2342,8 +2342,8 @@ button:hover:active:after,
 .row-align-left {
 	float: left;
 }
-.row-align-right
-{
+
+.row-align-right {
 	float: right;
 }
 
@@ -2684,6 +2684,14 @@ input[type="radio"]+label:before {
 	color: #953d75;
 }
 
+.wrapper.style4 .icon.major:before {
+	color: #a64245;
+}
+
+.wrapper.style4-alt .icon.major:before {
+	color: #a64245;
+}
+
 /* Image */
 
 .image {
@@ -2742,6 +2750,26 @@ input[type="radio"]+label:before {
 .image.main img {
 	width: 100%;
 }
+
+/* Avatar */
+.profile.avatar {
+	border-radius: 100%;
+}
+
+.profile.avatar:before {
+	display: none;
+}
+
+.profile.avatar img {
+	border-radius: 100%;
+	width: 170px;
+}
+
+/* #header .profile.avatar {
+	margin: 0 0 1em 0;
+	width: 6.25em;
+} */
+
 
 /* List */
 
@@ -3204,6 +3232,22 @@ body.is-ie .spotlights>section {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+.spotlights>section:nth-child(4) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.spotlights>section:nth-child(5) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.spotlights>section:nth-child(6) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.spotlights>section:nth-child(7) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 .spotlights>section.inactive>.image:before,
 body.is-preload .spotlights>section>.image:before {
 	opacity: 1;
@@ -3394,6 +3438,14 @@ table.alt tfoot {
 
 .wrapper.style3-alt {
 	background-color: #953d75;
+}
+
+.wrapper.style4 {
+	background-color: #a64245;
+}
+
+.wrapper.style4-alt {
+	background-color: #a64245;
 }
 
 .wrapper.fullscreen {
