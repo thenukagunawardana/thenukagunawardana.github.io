@@ -2754,16 +2754,17 @@ input[type="radio"]+label:before {
 /* Avatar */
 .profile.avatar {
 	border-radius: 100%;
+	width: 170px;
 }
 
 .profile.avatar:before {
 	display: none;
 }
 
-.profile.avatar img {
+/* .profile.avatar img {
 	border-radius: 100%;
-	width: 170px;
-}
+	width: 150px;
+} */
 
 /* #header .profile.avatar {
 	margin: 0 0 1em 0;
